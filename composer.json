@@ -1,0 +1,30 @@
+{
+    "name": "itrnka/ha-apcu-middleware",
+    "description": "APCu cache middleware for ha framework. This is a proxy to PHP APCu extension.",
+    "type": "library",
+    "keywords": [
+        "ha",
+        "APC",
+        "APCu"
+    ],
+    "homepage": "https://github.com/itrnka/ha-apcu-middleware",
+    "time": "2017-11-15",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "itrnka",
+            "email": "tic@tic.sk",
+            "role": "Developer"
+        }
+    ],
+    "support": {},
+    "require": {
+        "php": "^7.1",
+        "elasticsearch/elasticsearch": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ha\\Middleware\\Cache\\APCu\\": "src/APCu"
+        }
+    }
+}
