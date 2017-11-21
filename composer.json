@@ -3,6 +3,7 @@
     "description": "APCu cache middleware for ha framework. This is a proxy to PHP APCu extension.",
     "type": "library",
     "keywords": [
+        "ha-framework",
         "ha",
         "APC",
         "APCu"
