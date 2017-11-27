@@ -1,6 +1,6 @@
 # APCu cache driver middleware for *ha* framework
 
-APCu cache middleware for ha framework. This is a proxy to PHP APCu extension. Driver implements cache interface `ha\Middleware\Cache\Cache` from ha framework. So it can be used as a cache driver.
+APCu cache middleware for ha framework. This is a proxy to PHP APCu extension. Driver implements cache interface `ha\Middleware\Cache\Cache` from *ha* framework. So it can be used as a cache driver.
 
 
 ## Installation
